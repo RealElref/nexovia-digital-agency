@@ -4,7 +4,7 @@ Nexovia markası için geliştirdiğim modern, responsive ve performans odaklı 
 
 Proje, hazır bir şablon kullanılmadan; **HTML5**, **Tailwind CSS** ve **Vanilla JavaScript** kullanılarak sıfırdan geliştirilmiştir. Tasarımda modern UI/UX prensipleri, glassmorphism efektleri ve scroll animasyonları ön planda tutulmuştur.
 
-🔗 **Canlı Demo:** [https://kullaniciadi.github.io/nexovia-project](https://kullaniciadi.github.io/nexovia-project)
+🔗 **Canlı Demo:** [https://realelref.github.io/nexovia-digital-agency/](https://realelref.github.io/nexovia-digital-agency/)
 
 ## 🛠 Kullanılan Teknolojiler
 
@@ -27,7 +27,7 @@ Projeyi bilgisayarınızda çalıştırmak için:
 
 1.  Repoyu klonlayın:
     ```bash
-    git clone [https://github.com/kullaniciadi/nexovia-project.git](https://github.com/kullaniciadi/nexovia-project.git)
+    git clone [https://github.com/RealElref/nexovia-digital-agency.git](https://github.com/RealElref/nexovia-digital-agency.git)
     ```
 2.  Klasör dizinine gidin ve `index.html` dosyasını tarayıcıda açın.
 
