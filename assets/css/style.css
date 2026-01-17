@@ -1,0 +1,64 @@
+/*
+ * ==========================================================================
+ * PROJE:        NEXOVIA 
+ * AÇIKLAMA:     Örnek Front End Tasarım Çalışması
+ * YIL:          2026
+ * GELİŞTİRİCİ:  Osman Temiz
+ * İLETİŞİM:     brn@osmantemiz.com
+ * ==========================================================================
+ * * Telif Hakkı (c) 2026 Osman Temiz. Tüm Hakları Saklıdır.
+ * Bu kod yapısı eğitim ve örnekleme amacıyla oluşturulmuştur.
+ *
+ * ==========================================================================
+ */
+
+/* assets/css/style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap');
+
+/* Temel Ayarlar */
+body {
+    /* Fontları Tailwind config'de tanımladık ama burada fallback olsun */
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Scroll Bar (Daha ince ve koyu tema uyumlu) */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0B0F19;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+}
+
+/* Glassmorphism Efekti (Header için) */
+.glass-nav {
+    background: rgba(11, 15, 25, 0.7); /* Koyu Yarı Saydam */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Animasyon Sınıfları */
+.scroll-hidden {
+    opacity: 0;
+    transform: translateY(40px) scale(0.98); /* Hafif küçülerek gelir */
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); /* Daha doğal "yaylanma" efekti */
+}
+
+.scroll-visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Gecikme Sınıfları */
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
